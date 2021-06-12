@@ -1,0 +1,286 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-12T02:00:53.684Z",
+        "before": [
+          {
+            "result": {
+              "duration": 680000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.steps.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Successful Account Registration with Valid user details",
+        "description": "",
+        "id": "account-registration;successful-account-registration-with-valid-user-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9532000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launch Browser",
+            "match": {
+              "location": "stepDefinitions.steps.the_launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5559000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "opens URL \"https://demo.opencart.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://demo.opencart.com/\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefinitions.steps.opens_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 748000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to MyAccount Menu",
+            "match": {
+              "location": "stepDefinitions.steps.user_navigate_to_my_account_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1701000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on Register",
+            "match": {
+              "location": "stepDefinitions.steps.click_on_register()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 304000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user navigates to Register Account page",
+            "match": {
+              "location": "stepDefinitions.steps.user_navigates_to_register_account_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1858000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user provide valid details",
+            "match": {
+              "location": "stepDefinitions.steps.user_provide_valid_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1110000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on continue",
+            "match": {
+              "location": "stepDefinitions.steps.click_on_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 561000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should see \"Your Account Has Been Created!\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your Account Has Been Created!\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.steps.user_should_see_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Account Registration",
+    "description": "",
+    "id": "account-registration",
+    "keyword": "Feature",
+    "uri": "file:features/AccountRegistration.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-12T02:00:53.689Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1531000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.steps.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login successful with valid credentials",
+        "description": "",
+        "id": "login;login-successful-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8721000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Launch Browser",
+            "match": {
+              "location": "stepDefinitions.steps.the_launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6292000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "opens URL \"https://demo.opencart.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://demo.opencart.com/\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefinitions.steps.opens_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 192000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigate to MyAccount Menu",
+            "match": {
+              "location": "stepDefinitions.steps.user_navigate_to_my_account_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on Login",
+            "match": {
+              "location": "stepDefinitions.steps.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1090000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters Email as \"pavanoltraining@gmail.com\" and Password as \"test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pavanoltraining@gmail.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"test123\"",
+                  "offset": 65
+                }
+              ],
+              "location": "stepDefinitions.steps.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1281000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on Login button",
+            "match": {
+              "location": "stepDefinitions.steps.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User navigates to MyAccount Page",
+            "match": {
+              "location": "stepDefinitions.steps.user_navigates_to_my_account_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:features/Login.feature",
+    "tags": []
+  }
+]

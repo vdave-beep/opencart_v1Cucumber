@@ -1,0 +1,49 @@
+22:00:57.270 [pool-2-thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+22:00:57.374 [pool-2-thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+22:00:57.375 [pool-2-thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+22:00:57.375 [pool-2-thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+22:00:57.375 [pool-2-thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+22:00:57.375 [pool-2-thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+22:00:57.376 [pool-2-thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+22:00:57.376 [pool-2-thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+22:00:57.377 [pool-2-thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+22:00:57.377 [pool-2-thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+22:00:57.377 [pool-2-thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+22:00:57.378 [pool-2-thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+22:00:57.409 [pool-2-thread-2] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+22:00:57.409 [pool-2-thread-2] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+22:00:57.409 [pool-2-thread-2] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+22:00:59.368 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 13904 (auto-detected)
+22:00:59.371 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+22:00:59.372 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+22:00:59.976 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+22:00:59.978 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+22:01:00.615 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 40:e2:30:ff:fe:c7:2b:95 (auto-detected)
+22:01:00.743 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+22:01:00.745 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+22:01:00.745 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@776be09a
+22:01:00.813 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+22:01:00.814 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+22:01:00.814 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+22:01:00.814 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+22:01:00.814 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+22:01:03.808 [pool-2-thread-1] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xdf16989e1f6d8084
+22:01:10.270 [pool-2-thread-1] INFO  stepDefinitions.steps - Clicked on My Account
+22:01:10.446 [pool-2-thread-2] INFO  stepDefinitions.steps - Clicked on My Account
+22:01:11.449 [pool-2-thread-2] INFO  stepDefinitions.steps - Clicked on Login
+22:01:11.973 [pool-2-thread-1] INFO  stepDefinitions.steps - Clicked on Register
+22:01:12.269 [pool-2-thread-2] INFO  stepDefinitions.steps - Provided Email
+22:01:12.282 [pool-2-thread-1] INFO  stepDefinitions.steps - Register Account Page displayed
+22:01:12.539 [pool-2-thread-2] INFO  stepDefinitions.steps - Provided Password
+22:01:12.543 [pool-2-thread-1] INFO  stepDefinitions.steps - Provided First Name
+22:01:12.880 [pool-2-thread-1] INFO  stepDefinitions.steps - Provided Last Name
+22:01:13.182 [pool-2-thread-1] INFO  stepDefinitions.steps - Provided Email
+22:01:13.311 [pool-2-thread-1] INFO  stepDefinitions.steps - Provided Telephone
+22:01:13.450 [pool-2-thread-1] INFO  stepDefinitions.steps - Provided Password
+22:01:13.831 [pool-2-thread-2] INFO  stepDefinitions.steps - Clicked on Login Button
+22:01:13.838 [pool-2-thread-1] INFO  stepDefinitions.steps - Provided Confirmed password
+22:01:14.831 [pool-2-thread-2] INFO  stepDefinitions.steps - Login Success
+22:01:15.251 [pool-2-thread-1] INFO  stepDefinitions.steps - Clicked on Continue
+22:01:15.816 [pool-2-thread-1] INFO  stepDefinitions.steps - Account Registration Success
+22:01:16.999 [AsyncHttpClient-1-4] DEBUG io.netty.buffer.PoolThreadCache - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-4
+22:01:16.999 [AsyncHttpClient-1-6] DEBUG io.netty.buffer.PoolThreadCache - Freed 3 thread-local buffer(s) from thread: AsyncHttpClient-1-6
